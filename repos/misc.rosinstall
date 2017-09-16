@@ -1,0 +1,25 @@
+- git:
+    local-name: ros-geographic-info/unique_identifier/uuid_msgs
+    uri: https://github.com/ros-geographic-info/unique_identifier-release.git
+    version: release/kinetic/uuid_msgs/1.0.5-0
+
+- git:
+    local-name: ros-simulation/gazebo_ros_pkgs/gazebo_ros_pkgs
+    uri: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
+    version: release/kinetic/gazebo_ros_pkgs/2.5.13-0
+
+- git:
+    local-name: ros-perception/vision_opencv/image_geometry
+    uri: https://github.com/ros-gbp/vision_opencv-release.git
+    version: release/kinetic/image_geometry/1.12.4-0
+
+- git:
+    local-name: ros-perception/image_pipeline/depth_image_proc
+    uri: https://github.com/ros-gbp/image_pipeline-release.git
+    version: release/kinetic/depth_image_proc/1.12.20-0
+
+- git:
+    local-name: ros-drivers/joystick_drivers/joy
+    uri: https://github.com/ros-gbp/joystick_drivers-release.git
+    version: release/kinetic/joy/1.11.0-0
+

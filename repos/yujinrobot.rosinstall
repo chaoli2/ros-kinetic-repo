@@ -1,25 +1,40 @@
-##############################################################################
-#
-# If no debs, overlay on top of the rocon and ecl rosinstallers.
-#
-##############################################################################
+- git:
+    local-name: yujinrobot/ecl_tools/ecl_tools
+    uri: https://github.com/yujinrobot-release/ecl_tools-release.git
+    version: release/kinetic/ecl_tools/0.61.6-0
 
-# Kobuki / Yujin stacks
+- git:
+    local-name: yujinrobot/ecl_core/ecl_core
+    uri: https://github.com/yujinrobot-release/ecl_core-release.git
+    version: release/kinetic/ecl_core/0.61.17-0
 
-#- git: {local-name: yocs_msgs, version: release/0.6-indigo, uri: 'https://github.com/yujinrobot/yocs_msgs.git'}
-#- git: {local-name: yujin_ocs, version: indigo, uri: 'https://github.com/yujinrobot/yujin_ocs.git'}
-#- git: {local-name: kobuki_msgs, version: indigo, uri: 'https://github.com/yujinrobot/kobuki_msgs.git'}
-#- git: {local-name: kobuki_core, version: indigo, uri: 'https://github.com/yujinrobot/kobuki_core.git'}
-#- git: {local-name: kobuki, version: indigo, uri: 'https://github.com/yujinrobot/kobuki.git'}
-#- git: {local-name: kobuki_desktop, version: indigo, uri: 'https://github.com/yujinrobot/kobuki_desktop.git'}
+- git:
+    local-name: yujinrobot/yocs_msgs
+    uri: https://github.com/yujinrobot-release/yocs_msgs-release.git
+    version: release/kinetic/yocs_msgs/0.6.3-0
 
-- git: {local-name: yujinrobot/yocs_msgs, version: release/0.6-kinetic, uri: 'https://github.com/yujinrobot/yocs_msgs.git'}
-- git: {local-name: yujinrobot/yujin_ocs, version: kinetic, uri: 'https://github.com/yujinrobot/yujin_ocs.git'}
-- git: {local-name: yujinrobot/kobuki_msgs, version: kinetic, uri: 'https://github.com/yujinrobot/kobuki_msgs.git'}
-- git: {local-name: yujinrobot/kobuki_core, version: kinetic, uri: 'https://github.com/yujinrobot/kobuki_core.git'}
-- git: {local-name: yujinrobot/kobuki, version: kinetic, uri: 'https://github.com/yujinrobot/kobuki.git'}
-- git: {local-name: yujinrobot/kobuki_desktop, version: kinetic, uri: 'https://github.com/yujinrobot/kobuki_desktop.git'}
-- git: {local-name: yujinrobot/ecl_tools, version: release/0.61-indigo-kinetic, uri: 'https://github.com/stonier/ecl_tools.git'}
+- git:
+    local-name: yujinrobot/yujin_ocs
+    uri: https://github.com/yujinrobot-release/yujin_ocs-release.git
+    version: release/kinetic/yujin_ocs/0.8.2-0
 
-#- git: {local-name: capabilities, version: master, uri: 'https://github.com/osrf/capabilities.git'}
-#- git: {local-name: std_capabilities, version: master, uri: 'https://github.com/osrf/std_capabilities.git'}
+- git:
+    local-name: yujinrobot/kobuki_msgs
+    uri: https://github.com/yujinrobot-release/kobuki_msgs-release.git
+    version: release/kinetic/kobuki_msgs/0.7.0-0
+
+- git:
+    local-name: yujinrobot/kobuki_core
+    uri: https://github.com/yujinrobot-release/kobuki_core-release.git
+    version: release/kinetic/kobuki_core/0.7.8-1
+
+- git:
+    local-name: yujinrobot/kobuki
+    uri: https://github.com/yujinrobot-release/kobuki-release.git
+    version: release/kinetic/kobuki/0.7.4-0
+
+- git:
+    local-name: yujinrobot/kobuki_desktop
+    uri: https://github.com/yujinrobot-release/kobuki_desktop-release.git
+    version: release/kinetic/kobuki_desktop/0.5.7-0
+

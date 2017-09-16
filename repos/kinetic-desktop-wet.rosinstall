@@ -715,7 +715,7 @@
     uri: https://github.com/ros-gbp/rqt_web-release/archive/release/kinetic/rqt_web/0.4.8-0.tar.gz
     version: rqt_web-release-release-kinetic-rqt_web-0.4.8-0
 - tar:
-    local-name: ros-interactive-manipulation/rviz
+    local-name: ros-visualization/rviz
     uri: https://github.com/ros-gbp/rviz-release/archive/release/kinetic/rviz/1.12.13-0.tar.gz
     version: rviz-release-release-kinetic-rviz-1.12.13-0
 - tar:
