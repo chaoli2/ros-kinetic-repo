@@ -10,11 +10,11 @@ fi
 
 mkdir -p ${WS_DIR}/src/
 
-wstool init -j8 src repos/kinetic-desktop.rosinstall
-wstool merge -t src repos/yujinrobot.rosinstall
-wstool merge -t src repos/rocon.rosinstall
-wstool merge -t src repos/turtlebot.rosinstall
-wstool merge -t src repos/misc.rosinstall
-wstool update -j8 -t src
+wstool init -j8 ${WS_DIR}/src ${WS_DIR}/repos/kinetic-desktop.rosinstall
+wstool merge -t ${WS_DIR}/src ${WS_DIR}/repos/yujinrobot.rosinstall
+wstool merge -t ${WS_DIR}/src ${WS_DIR}/repos/rocon.rosinstall
+wstool merge -t ${WS_DIR}/src ${WS_DIR}/repos/turtlebot.rosinstall
+wstool merge -t ${WS_DIR}/src ${WS_DIR}/repos/misc.rosinstall
+wstool update -j8 -t ${WS_DIR}/src
 
 echo 'Done.'

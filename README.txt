@@ -1,3 +1,4 @@
+# Please refer http://wiki.ros.org/RecommendedRepositoryUsage/CommonGitHubOrganizations for common github organization for ROS packages
 
 # Use rosdep to install dependencies
 sudo rosdep init
