@@ -1,0 +1,15 @@
+- git:
+    local-name: ros-perception/slam_gmapping
+    uri: https://github.com/ros-gbp/slam_gmapping-release.git
+    version: release/kinetic/slam_gmapping/1.3.8-0
+
+- git:
+    local-name: ros-perception/gmapping
+    uri: https://github.com/ros-gbp/slam_gmapping-release.git
+    version: release/kinetic/gmapping/1.3.8-0
+
+- git:
+    local-name: ros-perception/openslam_gmapping
+    uri: https://github.com/ros-gbp/openslam_gmapping-release.git
+    version: release/kinetic/openslam_gmapping/0.1.2-0
+
