@@ -38,3 +38,8 @@
     uri: https://github.com/yujinrobot-release/kobuki_desktop-release.git
     version: release/kinetic/kobuki_desktop/0.5.7-0
 
+- git:
+    local-name: yujinrobot/kobuki_description
+    uri: https://github.com/yujinrobot-release/kobuki-release.git
+    version: release/kinetic/kobuki_description/0.7.4-0
+
