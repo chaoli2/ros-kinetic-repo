@@ -23,3 +23,18 @@
     uri: https://github.com/ros-gbp/joystick_drivers-release.git
     version: release/kinetic/joy/1.11.0-0
 
+- git:
+    local-name: ros-perception/pcl_conversions
+    uri: https://github.com/ros-gbp/pcl_conversions-release.git
+    version: release/kinetic/pcl_conversions/0.2.1-0
+
+- git:
+    local-name: ros-perception/pcl_msgs
+    uri: https://github.com/ros-gbp/pcl_msgs-release.git
+    version: release/kinetic/pcl_msgs/0.2.0-0
+
+- git:
+    local-name: ros/geometry2/tf2_eigen
+    uri: https://github.com/ros-gbp/geometry2-release.git
+    version: release/kinetic/tf2_eigen/0.5.16-0
+
