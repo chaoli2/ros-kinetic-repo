@@ -28,3 +28,8 @@
     uri: https://github.com/turtlebot-release/turtlebot_simulator-release.git
     version: release/kinetic/turtlebot_simulator/2.2.2-0
 
+- git:
+    local-name: turtlebot/turtlebot_bringup
+    uri: https://github.com/turtlebot-release/turtlebot-release.git
+    version: release/kinetic/turtlebot_bringup/2.4.2-0
+
