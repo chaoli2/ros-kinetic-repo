@@ -8,9 +8,11 @@ if ! [ -x "$(command -v wstool)" ]; then
   exit 1
 fi
 
+set -e
+
 mkdir -p ${WS_DIR}/src/
 
-wstool init -j8 ${WS_DIR}/src ${WS_DIR}/repos/kinetic-desktop.rosinstall
+wstool init -j8 ${WS_DIR}/src ${WS_DIR}/repos/kinetic-desktop.rosinstall || true
 wstool merge -t ${WS_DIR}/src ${WS_DIR}/repos/yujinrobot.rosinstall
 wstool merge -t ${WS_DIR}/src ${WS_DIR}/repos/rocon.rosinstall
 wstool merge -t ${WS_DIR}/src ${WS_DIR}/repos/turtlebot.rosinstall
