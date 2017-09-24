@@ -38,3 +38,13 @@
     uri: https://github.com/ros-gbp/geometry2-release.git
     version: release/kinetic/tf2_eigen/0.5.16-0
 
+- git:
+    local-name: ros-drivers/linux_peripheral_interfaces
+    uri: https://github.com/ros-gbp/linux_peripheral_interfaces-release.git
+    version: release/kinetic/linux_peripheral_interfaces/0.2.0-0
+
+- git:
+    local-name: ros-drivers/laptop_battery_monitor
+    uri: https://github.com/ros-gbp/linux_peripheral_interfaces-release.git
+    version: release/kinetic/laptop_battery_monitor/0.2.0-0
+
